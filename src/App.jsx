@@ -1,11 +1,11 @@
-import './App.css';
-import Circles from './Componets/Circles';
+import './style.scss';
+import Board from './Componets/Board';
 
 function App() {
   return (
     <div className="app">
       <div>
-        <Circles />
+        <Board />
       </div>
     </div>
   );
