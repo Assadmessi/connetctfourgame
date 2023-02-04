@@ -26,14 +26,16 @@ body {
   }
 }
 
-button {
+.circles {
   align-items: center;
   background: #4370f1;
-  display: grid;
+  // display: grid;
+  display: flex;
   height: 6.25rem;
   justify-content: center;
   width: 6.25rem;
   border: none;
+  overflow: none;
   &::after {
     background: white;
     border-radius: 50%;
@@ -42,5 +44,9 @@ button {
     cursor: pointer;
     height: 4.688rem;
     width: 4.688rem;
+  }
+  .fill {
+    border-radius: 50%;
+    background-color: red;
   }
 }
